@@ -10,7 +10,7 @@ Se van a obtener con WebScraping mediante la función leerTasaAfrica(), esto apl
 consola (F12) de la lista de municipios y pegar la definición de la función. Ejecutar a continuación la función y copiar el resultado <br>
 (la consola de Google Chrome, inserta un botón Copy al final del listado de datos).<br>
 
-Los datos obtenidos se guardan como JSON en un fichero de nombre objAfrica.js, esto aplicaria cada continente. Para poder usar directamente el array <br>
+Los datos obtenidos se guardan como JSON en un fichero de nombre <a href="objAfrica.js, esto aplicaria cada continente. Para poder usar directamente el array <br>
 en una variable, añadir por delante de dicho array el texto: “obj=” <br>
 
 Para visualizar los datos, se utiliza la librería de Google Chart y el tipo de gráfico Bar Chart. El resultado es el que se muestra en la página <br>
