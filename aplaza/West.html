@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script type="text/javascript" src="objWest.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable(objWest);
+
+        var options = {
+          chart: {
+            title: 'Tasa de Mortalidad en Western Pacific'
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="barchart_material" style="width: 900px; height: 2250;"></div>
+       <a href="Africa.html"> AFRICA </a><BR>
+      <a href="America.html"> AMERICAS </a><BR>
+      <a href="Eastern.html"> EASTERN MEDITERRANEAN </a><BR>
+      <a href="Europa-8.html"> EUROPE </a><BR>
+      <a href="South.html"> SOUTH-EAST ASIA </a><BR>
+      <a href="West.html"> WESTERN PACIFIC </a><BR>
+      <a href="TOTAL.html"> TODOS</a><BR>
+  </body>
+</html>

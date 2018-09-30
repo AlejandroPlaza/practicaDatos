@@ -1,0 +1,12 @@
+objSouth=[['Pais','Tasa'],['Sri Lanka',131],
+['India',178],
+['Myanmar',195],
+['Timor-Leste',150],
+['Indonesia',176],
+['Bangladesh',130],
+['Maldives',53],
+['Bhutan',207],
+['Democratic People s Republic of Korea',132],
+['Nepal',151],
+['Thailand',147],
+[,,]]
